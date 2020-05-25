@@ -1,0 +1,52 @@
+body, html{
+    width: 100%;
+    height: 100%;
+
+    /* see https://css-tricks.com/perfect-full-page-background-image/ for more info */
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    font-weight: bold;
+    color: #9bb3ca;
+}
+
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color: coral;
+    border-color: coral;
+}
+
+.btn-primary:hover{
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+}
+
+.button-xl{
+    padding: 1rem 2rem;
+}
+
+hr{
+    border-color: coral;
+    border-width: 3px;
+    max-width: 65px;
+}
+
+/* make container take 100% of the page to center properly */
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.buffer{
+    height: 10rem;
+}
